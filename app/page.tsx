@@ -23,7 +23,7 @@ export default function Home() {
       <main className="container mx-auto px-4 py-8 max-w-3xl">
         {/* Hero Section */}
         <div className="mb-14 mt-6">
-          <h1 className="text-2xl md:text-3xl font-normal text-stone-800 mb-4 leading-snug tracking-tight">
+          <h1 className="text-2xl md:text-3xl font-semibold text-stone-950 mb-4 leading-snug tracking-tight">
             You've got bigger things to focus on—we're here to help.
           </h1>
 

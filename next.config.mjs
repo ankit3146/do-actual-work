@@ -1,13 +1,17 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
+  output: 'export',
+  basePath: '',         // ❌ no subpath
+  assetPrefix: '',      // ❌ no prefix
+  images: {
+    unoptimized: true,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
   },
 }
 

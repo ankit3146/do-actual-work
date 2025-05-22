@@ -41,8 +41,8 @@ export default function Home() {
 
         {/* Time Value Section */}
         <div className="mb-16">
-          <h2 className="text-xl md:text-2xl font-normal text-stone-800 mb-6 border-b border-stone-300 pb-2">
-            Get your time back:
+          <h2 className="text-xl md:text-2xl font-semibold text-stone-950 mb-6 border-b border-stone-300 pb-2">
+            Get your time back
           </h2>
 
           <div className="mt-6 flex gap-4 items-start">
@@ -90,8 +90,8 @@ export default function Home() {
 
         {/* How It Works */}
         <div className="mb-16">
-          <h2 className="text-xl md:text-2xl font-normal text-stone-800 mb-6 border-b border-stone-300 pb-2">
-            How it works (it's simple):
+          <h2 className="text-xl md:text-2xl font-semibold text-stone-950 mb-6 border-b border-stone-300 pb-2">
+            How it works (it's simple)
           </h2>
 
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -122,7 +122,7 @@ export default function Home() {
 
         {/* Real Talk Section */}
         <div className="mb-16 bg-stone-200 p-6 rounded-lg">
-          <h2 className="text-xl md:text-2xl font-normal text-stone-800 mb-4">Real talk:</h2>
+          <h2 className="text-xl md:text-2xl font-semibold text-stone-950 mb-4">Real talk</h2>
 
           <ul className="list-disc pl-5 space-y-2 text-stone-700 text-sm">
             <li>We won't solve all your problems, but we'll fix 2–3 time-wasters.</li>
@@ -164,7 +164,7 @@ export default function Home() {
           <p className="text-stone-500 text-sm mb-4 md:mb-0">
             © {new Date().getFullYear()} doactual.work
           </p>
-          <div className="text-stone-500 text-sm">hello@practicalai.co</div>
+          <div className="text-stone-500 text-sm">hello@doactual.work</div>
         </div>
       </footer>
     </div>

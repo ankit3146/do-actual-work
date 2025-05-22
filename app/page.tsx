@@ -27,14 +27,14 @@ export default function Home() {
             You've got bigger things to focus on—we're here to help.
           </h1>
 
-          <div className="prose prose-stone text-base">
+          <div className="prose prose-stone prose-lg text-base">
             <p className="mb-5">
               Look, we're not going to bore you with buzzwords or fancy graphics. Here's the deal: AI can save you time
               on the boring stuff you hate doing.
             </p>
             <p>
-              We've spent years helping local businesses. We're not tech bros or corporate consultants. We're just good
-              at making AI tools that actually help real businesses.
+            Just real tools to help you do more with less. 
+            Let's make work simpler—together.
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Home() {
           <div className="mt-6 flex gap-4 items-start">
             <Lightbulb className="h-6 w-6 text-stone-700 mt-1 flex-shrink-0" />
             <p className="text-stone-700 text-base">
-              Every business is different. We look at where you're spending too much time and build custom AI tools to
+              Every business is different. We look at where you're spending too much time and build custom tools to
               give you those hours back.
             </p>
           </div>
@@ -79,7 +79,7 @@ export default function Home() {
           </div>
 
           <div className="mt-8 bg-stone-200 p-6 rounded-lg">
-            <p className="font-medium text-stone-800 mb-4">Time potential:</p>
+            <p className="font-semibold text-stone-950 mb-4">Time potential</p>
             <ul className="list-disc pl-5 space-y-2 text-stone-700 text-sm">
               <li>Just 1 hour daily on repetitive tasks = 260+ hours saved per year</li>
               <li>A team of 5 people each saving 1 hour = 1,300+ hours saved per year</li>

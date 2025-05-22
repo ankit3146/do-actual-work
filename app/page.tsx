@@ -32,9 +32,14 @@ export default function Home() {
               Look, we're not going to bore you with buzzwords or fancy graphics. Here's the deal: AI can save you time
               on the boring stuff you hate doing.
             </p>
+            <p className="mb-5">
+              But that's just the start.
+
+              From cutting down your busywork to helping you show up better online—think smarter systems, sharper content, and smoother digital workflows.
+            </p>
             <p>
-            Just real tools to help you do more with less. 
-            Let's make work simpler—together.
+              Just real solutions to help you do more with less.
+              Let's make work simpler—together.
             </p>
           </div>
         </div>
@@ -48,8 +53,7 @@ export default function Home() {
           <div className="mt-6 flex gap-4 items-start">
             <Lightbulb className="h-6 w-6 text-stone-700 mt-1 flex-shrink-0" />
             <p className="text-stone-700 text-base">
-              Every business is different. We look at where you're spending too much time and build custom tools to
-              give you those hours back.
+              Every business is different. We spot where you're burning time—and put better workflows in place to win it back.
             </p>
           </div>
 
@@ -80,7 +84,7 @@ export default function Home() {
 
           <div className="mt-8 bg-stone-200 p-6 rounded-lg">
             <p className="font-semibold text-stone-950 mb-4">Time potential</p>
-            <ul className="list-disc pl-5 space-y-2 text-stone-700 text-sm">
+            <ul className="list-disc pl-5 space-y-2 text-stone-700 text-[15px]">
               <li>Just 1 hour daily on repetitive tasks = 260+ hours saved per year</li>
               <li>A team of 5 people each saving 1 hour = 1,300+ hours saved per year</li>
               <li>Most clients save at least 5 hours per week (that's 260+ hours per year)</li>
@@ -122,9 +126,9 @@ export default function Home() {
 
         {/* Real Talk Section */}
         <div className="mb-16 bg-stone-200 p-6 rounded-lg">
-          <h2 className="text-xl md:text-2xl font-semibold text-stone-950 mb-4">Real talk</h2>
+          <h2 className="text-xl md:text-2xl font-semibold text-stone-950 mb-6 border-b border-stone-300 pb-2">Real talk</h2>
 
-          <ul className="list-disc pl-5 space-y-2 text-stone-700 text-sm">
+          <ul className="list-disc pl-5 space-y-2 text-stone-700 text-[15px]">
             <li>We won't solve all your problems, but we'll fix 2–3 time-wasters.</li>
             <li>Most solutions are up and running within 2 weeks. No months of development.</li>
             <li>If we can't help, we'll tell you upfront. No hard sell.</li>
@@ -148,11 +152,11 @@ export default function Home() {
 
         {/* About Us */}
         <div className="mb-16">
-          <h2 className="text-xl md:text-2xl font-normal text-stone-800 mb-6 border-b border-stone-300 pb-2">
-            About us:
+          <h2 className="text-xl md:text-2xl font-semibold text-stone-950 mb-6 border-b border-stone-300 pb-2">
+            About us
           </h2>
           <p className="text-stone-700 text-base">
-            We're a small team that builds simple, practical tools to help businesses save time and reduce busywork.
+            We're a small team focused on saving you time and simplifying the stuff that slows you down.
             Just clear, thoughtful solutions that do exactly what you need—and nothing you don't.
           </p>
         </div>
